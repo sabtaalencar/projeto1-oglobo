@@ -612,7 +612,6 @@ a {
         font-weight: bold;
         font-size: 18px;
         line-height: 120%;
-        margin-top: 10%;
         margin-left: 10px;
         color: #06AA48;
     }
@@ -636,7 +635,6 @@ a {
     }
 
     .two img {
-        width: 140px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -678,7 +676,8 @@ a {
         fill: solid;
         font-weight: bold;
         color: #EC8006;
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-left:10px;
     }
 
     .sete {
