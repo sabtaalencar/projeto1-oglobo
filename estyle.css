@@ -411,8 +411,305 @@ a {
         margin-bottom: 15px;
     }
 
-    .title img {
-        width: 35%;
+    .menu {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .menu :nth-child(3) {
+        display: none;
+    }
+
+    .menu :nth-child(5) {
+        display: none;
+    }
+
+    .menu :nth-child(7) {
+        display: none;
+    }
+
+    .menu :nth-child(9) {
+        display: none;
+    }
+
+    .menu :nth-child(10) {
+        display: none;
+    }
+
+    .journal {
+        flex-direction: column;
+        margin: 2%;
+    }
+
+    .blockOne {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .blockOne h1 {
+        width: 100%;
+        font-weight: Bold;
+        font-size: 40px;
+        line-height: 35px;
+        fill: solid;
+        color: #CD150B;
+        margin-bottom: 1%;
+
+    }
+
+    .blockOne :nth-child(2) {
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        fill: solid;
+        color: #CD150B;
+
+    }
+
+    .blockOne :nth-child(3) {
+        display: none;
+    }
+
+
+    .divisaoum {
+        width: 100%;
+        display: flex;
+    }
+
+    .divisaoum img {
+        width: 100%;
+        height: 67px;
+        border-radius: 2px;
+        scale: fill;
+        margin: 2px;
+        border-radius: 2px;
+    }
+
+    .lineDivision {
+        display: none;
+    }
+
+    .divisaoum p {
+        width: 100%;
+        height: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 120%;
+        color: #CD150B;
+        margin-top: 10%;
+    }
+
+    .paragraph :nth-child(1) {
+        font-size: 20px;
+        width: 100%;
+        height: 2%;
+        font-weight: normal;
+        color: #CD150B;
+    }
+
+    .paragraph :nth-child(2) {
+        font-size: 20px;
+        width: 100%;
+        font-weight: normal;
+        color: #CD150B;
+    }
+
+    .lineMobileInvisible {
+        width: 100%;
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background-color: #E6E6E6;
+    }
+
+    .blockTwo {
+        width: 100%;
+    }
+
+    .um {
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 120%;
+        color: #CD150B;
+    }
+
+    .dois {
+        width: 100%;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 100%;
+        color: #EC8006;
+        margin: 0;
+    }
+
+    .tres {
+        width: 100%;
+        font-size: 20px;
+        line-height: 100%;
+        font-weight: normal;
+        color: #EC8006;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .lineTwo {
+        display: none;
+    }
+
+    .lineOne {
+        display: none;
+    }
+
+    .secondary {
+        width: 100%;
+        height: 5%;
+    }
+
+    .one {
+        width: 100%;
+        display: flex;
+        height: 100;
+
+    }
+
+    .one img {
+        width: 190px;
+        height: 67px;
+        border-radius: 2px;
+        scale: fill;
+        margin: 2px;
+        border-radius: 2px;
+    }
+
+
+
+    .one :nth-child(3) {
+        width: 100%;
+        font-size: 16px;
+        fill: solid;
+        color: #06AA48;
+
+    }
+
+    .one :nth-child(2) {
+        width: 100%;
+        font-size: 18px;
+        fill: solid;
+        color: #06AA48;
+    }
+
+    .paragraph2 :nth-child(1) {
+        font-size: 20px;
+        width: 100%;
+        height: 2%;
+        font-weight: normal;
+        color: #06AA48;
+
+    }
+
+    .paragraph2 :nth-child(2) {
+        font-size: 20px;
+        width: 100%;
+        height: 2%;
+        font-weight: normal;
+        color: #06AA48;
+
+    }
+
+    .two img {
+        width: 140px;
+        height: 67px;
+        border-radius: 2px;
+        scale: fill;
+        margin: 2px;
+        border-radius: 2px;
+    }
+
+    .quatro {
+        font-family: 'Encode Sans';
+        font-weight: bold;
+        line-height: 100%;
+        fill: solid;
+        color: #16AE54;
+        margin-top: 5%;
+    }
+
+    .cinco {
+        font-size: 20px;
+        width: 100%;
+        height: 2%;
+        font-weight: normal;
+        color: #06AA48;
+    }
+
+    .seis {
+        width: 100%;
+        font-size: 16px;
+        font-weight: normal;
+        color: #06AA48;
+    }
+
+    .two {
+        display: flex;
+    }
+
+    .two :nth-child(2) {
+        width: 100%;
+        font-size: 18px;
+        fill: solid;
+        font-weight: bold;
+        color: #EC8006;
+        margin-top: 10%;
+    }
+
+    .sete {
+        font-size: 20px;
+        width: 100%;
+        height: 2%;
+        font-weight: normal;
+        color: #EC8006;
+    }
+
+
+}
+
+@media(max-width:300px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .line {
+        height: 1.5px;
+        fill: solid;
+        background-color: #EBEDEF;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+
+    .title {
+        width: 100%;
+        height: 80px;
+        fill: image;
+        scale: fill;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
     }
 
     .menu {
@@ -487,7 +784,7 @@ a {
     }
 
     .divisaoum img {
-        width: 140px;
+        width: 100%;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -500,8 +797,7 @@ a {
     }
 
     .divisaoum p {
-        width: 200%;
-        ;
+        width: 100%;
         height: 20px;
         font-weight: bold;
         font-size: 20px;
@@ -512,7 +808,7 @@ a {
 
     .paragraph :nth-child(1) {
         font-size: 20px;
-        width: 500px;
+        width: 100%;
         height: 2%;
         font-weight: normal;
         color: #CD150B;
@@ -520,13 +816,13 @@ a {
 
     .paragraph :nth-child(2) {
         font-size: 20px;
-        width: 500px;
+        width: 100%;
         font-weight: normal;
         color: #CD150B;
     }
 
     .lineMobileInvisible {
-        width: 200%;
+        width: 100%;
         height: 1px;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -538,7 +834,7 @@ a {
     }
 
     .um {
-        width: 400px;
+        width: 100%;
         font-size: 20px;
         font-weight: bold;
         line-height: 120%;
@@ -546,7 +842,7 @@ a {
     }
 
     .dois {
-        width: 400px;
+        width: 100%;
         font-size: 20px;
         font-weight: normal;
         line-height: 100%;
@@ -555,7 +851,7 @@ a {
     }
 
     .tres {
-        width: 200%;
+        width: 100%;
         font-size: 20px;
         line-height: 100%;
         font-weight: normal;
@@ -612,7 +908,7 @@ a {
 
     .paragraph2 :nth-child(1) {
         font-size: 20px;
-        width: 600px;
+        width: 100%;
         height: 2%;
         font-weight: normal;
         color: #06AA48;
@@ -621,7 +917,7 @@ a {
 
     .paragraph2 :nth-child(2) {
         font-size: 20px;
-        width: 500px;
+        width: 100%;
         height: 2%;
         font-weight: normal;
         color: #06AA48;
@@ -648,14 +944,14 @@ a {
 
     .cinco {
         font-size: 20px;
-        width: 500px;
+        width: 100%;
         height: 2%;
         font-weight: normal;
         color: #06AA48;
     }
 
     .seis {
-        width: 300px;
+        width: 100%;
         font-size: 16px;
         font-weight: normal;
         color: #06AA48;
@@ -676,310 +972,11 @@ a {
 
     .sete {
         font-size: 20px;
-        width: 600px;
+        width: 100%;
         height: 2%;
         font-weight: normal;
         color: #EC8006;
     }
 
-
-}
-
-@media(max-width:300px) {
-    body {
-        font-family: 'Open Sans', sans-serif;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .line {
-        height: 2px;
-        fill: solid;
-        background-color: #EBEDEF;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .title {
-        width: 100%;
-        height: 60px;
-        fill: image;
-        scale: fill;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-
-    .title img {
-        width: 100%;
-    }
-
-    .menu {
-        width: 100%;
-        height: 100px;
-
-    }
-
-
-    .menu :nth-child(3) {
-        display: none;
-    }
-
-    .menu :nth-child(5) {
-        display: none;
-    }
-
-    .menu :nth-child(7) {
-        display: none;
-    }
-
-    .menu :nth-child(9) {
-        display: none;
-    }
-
-    .menu :nth-child(10) {
-        display: none;
-    }
-
-    .journal {
-        flex-direction: column;
-        margin: 2%;
-    }
-
-    .blockOne {
-        width: 100%;
-        display: flex;
-    }
-
-    .blockOne h1 {
-        font-weight: Bold;
-        font: size 500px;
-        line-height: 35px;
-        letter-spacing: 5.8%;
-        fill: solid;
-        color: #CD150B;
-        margin-bottom: 1%;
-    }
-
-    .blockOne :nth-child(2) {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 100%;
-        fill: solid;
-        color: #CD150B;
-
-    }
-
-    .blockOne :nth-child(3) {
-        display: none;
-    }
-
-
-    .divisaoum {
-        width: 100%;
-        display: flex;
-    }
-
-    .divisaoum img {
-        width: 150px;
-        height: 80px;
-        border-radius: 2px;
-        scale: fill;
-        margin: 2px;
-        border-radius: 2px;
-    }
-
-    .lineDivision {
-        display: none;
-    }
-
-    .divisaoum p {
-        width: 300px;
-        height: 20px;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 120%;
-        color: #CD150B;
-        margin-top: 10%;
-    }
-
-    .paragraph :nth-child(1) {
-        width: 400px;
-        height: 15%;
-        font-size: 14px;
-        font-weight: normal;
-        color: #CD150B;
-    }
-
-    .paragraph :nth-child(2) {
-        width: 500px;
-        font-size: 14px;
-        font-weight: normal;
-        color: #CD150B;
-    }
-
-    .lineMobileInvisible {
-        width: 100%;
-        height: 1px;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        background-color: #E6E6E6;
-    }
-
-    .blockTwo {
-        width: 100%;
-    }
-
-    .um {
-        width: 300px;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 120%;
-        color: #CD150B;
-    }
-
-    .dois {
-        width: 400px;
-        height: 0px;
-        font-size: 17px;
-        font-weight: normal;
-        line-height: 100%;
-        color: #EC8006;
-        margin: 0;
-    }
-
-    .tres {
-        width: 100%;
-        line-height: 100%;
-        font-size: 17px;
-        font-weight: normal;
-        color: #EC8006;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    .lineTwo {
-        display: none;
-    }
-
-    .lineOne {
-        display: none;
-    }
-
-    .secondary {
-        width: 100%;
-        height: 5%;
-    }
-
-    .one {
-        width: 100%;
-        display: flex;
-        height: 100;
-
-    }
-
-    .one img {
-        width: 120px;
-        height: 67px;
-        border-radius: 2px;
-        scale: fill;
-        margin: 2px;
-        border-radius: 2px;
-    }
-
-
-    .one :nth-child(3) {
-        width: 100%;
-        font-size: 16px;
-        fill: solid;
-        color: #06AA48;
-
-    }
-
-    .one :nth-child(2) {
-        width: 100%;
-        font-size: 18px;
-        fill: solid;
-        color: #06AA48;
-    }
-
-    .paragraph2 :nth-child(1) {
-        width: 100%;
-        font-size: 14px;
-        fill: solid;
-        color: #06AA48;
-
-    }
-
-    .paragraph2 :nth-child(2) {
-        width: 500px;
-        font-size: 14px;
-        font-weight: normal;
-        color: #06AA48;
-
-    }
-
-    .two img {
-        width: 120px;
-        height: 67px;
-        border-radius: 2px;
-        scale: fill;
-        margin: 2px;
-        border-radius: 2px;
-    }
-
-    .quatro {
-        font-family: 'Encode Sans';
-        font-weight: bold;
-        line-height: 18px;
-        line-height: 100%;
-        fill: solid;
-        color: #16AE54;
-        margin-top: 5%;
-    }
-
-    .cinco {
-        width: 100%;
-        font-size: 10px;
-        font-weight: normal;
-        color: #06AA48;
-    }
-
-    .seis {
-        width: 300px;
-        font-size: 10px;
-        font-weight: normal;
-        color: #06AA48;
-    }
-
-    .two {
-        display: flex;
-    }
-
-    .two :nth-child(2) {
-        width: 100%;
-        font-family: 'Encode Sans';
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 18px;
-        line-height: 100%;
-        color: #EC8006;
-        margin-top: 10%;
-    }
-
-    .sete {
-        width: 100%;
-        line-height: 100%;
-        font-size: 14px;
-        font-weight: normal;
-        color: #EC8006;
-    }
 
 }
