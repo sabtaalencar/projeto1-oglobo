@@ -35,10 +35,10 @@ a {
 
 .menu {
     margin: 0 auto;
-    width: 100%;
+    width: 1360px;
     height: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -154,6 +154,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    margin-bottom:6%;
 }
 
 .blockOne {
