@@ -43,7 +43,7 @@ a {
 }
 
 .menu :nth-child(1) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -53,7 +53,7 @@ a {
 }
 
 .menu :nth-child(2) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -63,7 +63,7 @@ a {
 }
 
 .menu :nth-child(3) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -73,7 +73,7 @@ a {
 }
 
 .menu :nth-child(4) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -83,7 +83,7 @@ a {
 }
 
 .menu :nth-child(5) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -93,7 +93,7 @@ a {
 }
 
 .menu :nth-child(6) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -103,7 +103,7 @@ a {
 }
 
 .menu :nth-child(7) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -113,7 +113,7 @@ a {
 }
 
 .menu :nth-child(8) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -124,7 +124,7 @@ a {
 
 
 .menu :nth-child(9) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -135,7 +135,7 @@ a {
 
 
 .menu :nth-child(10) {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 19px;
     line-height: 100%;
@@ -144,12 +144,10 @@ a {
     color: #A81D83;
 }
 
-
 .journal {
     display: flex;
     justify-content: center;
     margin-top: 2%;
-
 }
 
 .blockOne {
@@ -162,7 +160,7 @@ a {
 
 
 .blockOne h1 {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 60px;
     line-height: 80px;
@@ -171,7 +169,7 @@ a {
 }
 
 .blockOne :nth-child(2) {
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-size: Medium;
     font-weight: 18px;
     line-height: 50px;
@@ -182,7 +180,7 @@ a {
 }
 
 .blockOne :nth-child(3) {
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-size: Medium;
     letter-spacing: -1%;
     fill: Solid;
@@ -201,8 +199,7 @@ a {
 .um {
     width: 250px;
     height: 40px;
-    font-family: 'Encode Sans';
-    font-weight: Medium;
+    font-family: 'Encode Sans', sans-serif;
     font-size: 15px;
     line-height: 20px;
     line-height: 100%;
@@ -213,7 +210,7 @@ a {
 .dois {
     width: 220px;
 
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-size: 16px;
     font-weight: Bold;
     font-size: 21px;
@@ -225,7 +222,7 @@ a {
 
 .tres {
     width: 210px;
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 109%;
@@ -264,7 +261,7 @@ a {
 }
 
 .quatro {
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-weight: medium;
     font-size: 15px;
     line-height: 18px;
@@ -276,7 +273,7 @@ a {
 }
 
 .cinco {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
@@ -288,7 +285,7 @@ a {
 }
 
 .seis {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: regular;
     font-size: 14px;
     line-height: 19px;
@@ -320,7 +317,7 @@ a {
 
 .sete {
     width: 210px;
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 109%;
@@ -339,7 +336,7 @@ a {
 .two :nth-child(2) {
     font-weight: medium;
     font-size: 15px;
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     line-height: 18px;
     line-height: 100%;
     letter-spacing: 2%;
@@ -382,11 +379,16 @@ a {
     margin-bottom: 3vw;
 }
 
+#hidden {
+    display: none;
+}
+
 
 
 @media(max-width:600px) {
     body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Encode Sans', sans-serif;
+        width: 100%;
     }
 
     * {
@@ -398,7 +400,7 @@ a {
     }
 
     .line {
-        height: 1.5px;
+        height: 1px;
         fill: solid;
         background-color: #EBEDEF;
         margin-top: 8px;
@@ -407,17 +409,27 @@ a {
 
     .title {
         width: 100%;
-        height: 60px;
-        fill: image;
+        height: 80px;
         scale: fill;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
         transition: transform .4s linear;
-
-
     }
+
+
+
+    #hidden {
+        display: inline;
+        width: 208px;
+        height: 57px;
+    }
+
+    #visibility {
+        display: none;
+    }
+
 
     .menu {
         width: 100%;
@@ -427,12 +439,19 @@ a {
         align-items: center;
     }
 
+    .menu :nth-child(2) {
+        display: none;
+    }
 
     .menu :nth-child(3) {
         display: none;
     }
 
     .menu :nth-child(5) {
+        display: none;
+    }
+
+    .menu :nth-child(6) {
         display: none;
     }
 
@@ -448,6 +467,26 @@ a {
         display: none;
     }
 
+    .menu :nth-child(11) {
+        font-family: 'Encode Sans', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        fill: solid;
+        color: #666666;
+    }
+
+    .menu :nth-child(12) {
+        font-family: 'Encode Sans', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        fill: solid;
+        color: #0769DE;
+    }
+
     .journal {
         flex-direction: column;
         margin: 2%;
@@ -460,29 +499,32 @@ a {
     }
 
     .blockOne h1 {
+        font-family: 'Encode Sans', sans-serif;
         width: 100%;
         font-weight: Bold;
-        font-size: 40px;
-        line-height: 35px;
-        letter-spacing: 2;
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 2.8%;
+        vertical-align: Top;
         fill: solid;
         color: #CD150B;
-        margin-bottom: 1%;
-
+        align-content: center;
+        vertical-align: top;
+        margin-left: 5%;
     }
 
     .dividir {
         width: 100%;
     }
 
-    .blockOne :nth-child(2) {
+    .paragrafo {
         width: 100%;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 25px;
         fill: solid;
         color: #CD150B;
-
+        margin-left: 5%;
     }
 
     .blockOne :nth-child(3) {
@@ -496,7 +538,7 @@ a {
     }
 
     .divisaoum img {
-        width: 140px;
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -516,27 +558,24 @@ a {
         color: #CD150B;
         margin-top: 10%;
         margin-left: 10px;
-        /*aquiiiiiii*/
+        /*aquiiiiiigggggggggggggggggggggggggggggggggggggggggggggggggggggi*/
+        background-color: #06AA48;
     }
 
     .paragraph :nth-child(1) {
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
         height: 2%;
         font-weight: normal;
         color: #CD150B;
+        background-color: #07AA47;
+        /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
     }
 
-    .paragraph :nth-child(2) {
-        font-size: 18px;
-        width: 100%;
-        font-weight: normal;
-        color: #CD150B;
-    }
 
     .lineMobileInvisible {
         width: 100%;
-        height: 1px;
+        height: 0.5px;
         margin-top: 2%;
         margin-bottom: 2%;
         background-color: #E6E6E6;
@@ -550,27 +589,33 @@ a {
         width: 100%;
         font-size: 18px;
         font-weight: bold;
-        line-height: 120%;
+        line-height: 100%;
         color: #CD150B;
+        background-color: #006766;
+        /**ssssssssssssssssssssssssssssssssss*/
     }
 
     .dois {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: normal;
         line-height: 100%;
         color: #EC8006;
         margin: 0;
+        background-color: #0769DE;
+        /*dddddddddddddddddddddddddddddddddddddddddddddddddd*/
     }
 
     .tres {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 100%;
         font-weight: normal;
         color: #EC8006;
         margin-top: 2%;
         margin-bottom: 2%;
+        background-color: #1E4B9B;
+        /*ffffffffffffffffffffffffffffffffffffffff*/
     }
 
     .lineTwo {
@@ -598,7 +643,7 @@ a {
     }
 
     .one img {
-        width: 140px;
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -607,72 +652,48 @@ a {
     }
 
 
-
-    .one :nth-child(3) {
-        width: 100%;
-        font-size: 16px;
-        fill: solid;
-        color: #06AA48;
-
-    }
-
     .one :nth-child(2) {
+        width: 100%;
         height: 18px;
         font-weight: bold;
         font-size: 18px;
         line-height: 120%;
         margin-left: 10px;
+        margin-top: 7%;
         color: #06AA48;
+        background-color: #A81D83;
+        /**sssssssssssssssssssssgggggggggggggggggggggggggsss*/
     }
 
     .paragraph2 :nth-child(1) {
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
         height: 2%;
         font-weight: normal;
         color: #06AA48;
+        background-color: #a8391d;
+        /*sssssssssssssssssssssssssssssssssssssssssssssssss*/
 
     }
 
     .paragraph2 :nth-child(2) {
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
         height: 2%;
         font-weight: normal;
         color: #06AA48;
+        background-color: #0bcd8c4d;
+        /*fffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
 
     }
 
     .two img {
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
         margin: 2px;
         border-radius: 2px;
-    }
-
-    .quatro {
-        font-family: 'Encode Sans';
-        font-weight: bold;
-        line-height: 100%;
-        fill: solid;
-        color: #16AE54;
-        margin-top: 5%;
-    }
-
-    .cinco {
-        font-size: 18px;
-        width: 100%;
-        height: 2%;
-        font-weight: normal;
-        color: #06AA48;
-    }
-
-    .seis {
-        width: 100%;
-        font-size: 18px;
-        font-weight: normal;
-        color: #06AA48;
     }
 
     .two {
@@ -685,16 +706,24 @@ a {
         fill: solid;
         font-weight: bold;
         color: #EC8006;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 10px;
+        background-color: #2F3134;
+        /*sssssssssssssssssssssssssssssssssssssssssss*/
     }
 
     .sete {
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
         height: 2%;
         font-weight: normal;
         color: #EC8006;
+        background-color: #ddec063d;
+        /*ddddddddddddddddddddddddddddddddddddddddddddddddd*/
+    }
+
+    .journal {
+        align-items: center;
     }
 
 
@@ -702,7 +731,7 @@ a {
 
 @media(max-width:300px) {
     body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Encode Sans', sans-serif;
     }
 
     * {
@@ -720,6 +749,7 @@ a {
         margin-top: 8px;
         margin-bottom: 5px;
     }
+
 
     .title {
         width: 100%;
@@ -786,7 +816,7 @@ a {
     .blockOne :nth-child(2) {
         width: 100%;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
         fill: solid;
         color: #CD150B;
@@ -804,7 +834,7 @@ a {
     }
 
     .divisaoum img {
-        width: 100%;
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -817,6 +847,7 @@ a {
     }
 
     .divisaoum p {
+        font-family: 'Encode Sans', sans-serif;
         width: 100%;
         height: 20px;
         font-weight: bold;
@@ -901,7 +932,7 @@ a {
     }
 
     .one img {
-        width: 190px;
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -945,7 +976,7 @@ a {
     }
 
     .two img {
-        width: 140px;
+        width: 120px;
         height: 67px;
         border-radius: 2px;
         scale: fill;
@@ -954,7 +985,7 @@ a {
     }
 
     .quatro {
-        font-family: 'Encode Sans';
+        font-family: 'Encode Sans', sans-serif;
         font-weight: bold;
         line-height: 100%;
         fill: solid;
